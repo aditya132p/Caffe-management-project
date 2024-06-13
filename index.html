@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css">
+  <title>Caffe</title>
+   <style>
+    /* Add some basic styling */
+    .error { border: 1.4px solid red; }
+    .valid { border: 1.4px solid green; }
+  </style>
+  
+</head>
+
+<body>
+  <main id="main" class="w-full  h-screen dark:bg-gray-800">
+  <div class="w-full h-full flex overflow-hidden  ">
+    <div  class=" h-full flex flex-col px-12 pt-10 w-1/2">
+      <h1 id="Welcome" class=" text-4xl font-bold text-slate-100">Welcome To <span class="text-purple-300 ">Caffe</span> Green</h1>
+      <span id="Welcome" class="text-purple-500 leading-loose decoration-1 underline underline-offset-4 px-3">Brewed with Care, Served with Love</span>
+      <p id="Welcome" class="pt-8 text-slate-100 text-[12px] ">Welcome to Café green, your cozy city retreat! Enjoy our menu filled with fresh, delicious flavors, from morning espressos to leisurely meals with friends. With a warm atmosphere and exceptional service, every visit is a unique experience. Join us for a perfect blend of relaxation and indulgence. Your table awaits!</p>
+      <div id="Welcome" class="lft-bottom w-full h-full flex flex-col justify-center gap-3 items-start">
+        <input id="home-Name" type="text" placeholder="Enter Your Name" class="px-3 bg-slate-100 outline-none text-green-950 py-2 w-80 rounded-md">
+        <input id="home-email" type="email" placeholder="Enter Your Email"  class="px-3 bg-slate-100 outline-none text-green-950 py-2 w-80 rounded-md">
+        <button id="homebtn" class="px-3 transition duration-700 ease-in-out focus:bg-slate-500 bg-slate-100 hover:bg-purple-500 hover:text-slate-100 py-2 w-80 font-bold rounded-md">Next</button>
+      </div>
+    </div>
+    <div id="img-slide" class="rht w-1/2">
+      <img class="w-full h-full opacity-90  rounded-2xl" src="./Group 1.png" alt="">
+
+    </div>
+
+  </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/main.js"></script>
+  
+</body>
+
+</html>
